@@ -1,0 +1,46 @@
+.nav__light {
+    background-color: #f4f8fb;
+    height: 60px;
+}
+.nav-item a {
+    font-size: 15px;
+    color: #425089;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif; 
+}
+.nav-link {
+    color: #2d3e50;
+    display: block;
+    font-size: 15px;
+}
+.btn__primary:not(.gradient) {
+    background-color: #425089;
+    border: 1px solid #425089;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+.btn__secondary {
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+a {
+    color: #2d3e50;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.nav--logo {
+    height: 50px;
+    margin-left: 20px;
+}
+.rounded__full {
+    border-radius: 999px !important;
+}
+.btn{
+    border:none;
+}
