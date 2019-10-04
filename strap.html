@@ -51,8 +51,9 @@
       <div style="display:flex">
         <div class="nav-item">
           <a href="#" class="navbar-brand"><img src="logo.png" class="nav--logo" style="margin-right:10px">
-            <button type="button" class="btn__primary ml-4 py-1 px-2 font__11 rounded__full btn btn-primary">We are
-              hiring</button></a>
+            <button type="button"
+              class="btn__primary ml-4 py-1 px-2 font__11 rounded__full d-none d-md-inline-block d-lg-inline-block d-xl-inline-block btn btn-primary">We
+              are hiring</button></a>
         </div>
       </div>
 
@@ -63,13 +64,19 @@
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left:10px">
             <ul class="navbar-nav">
+              <div class="desktop__hide nav-item">
+                <div class="d-xs-block d-sm-block nav-item">
+                  <a href="#"><button type="button"
+                      class="btn__primary py-1 px-2 font__11 rounded__full btn btn-primary">We are hiring</button></a>
+                </div>
+              </div>
               <li class="nav-item">
                 <a class="nav-link" href="#">Virtual CFO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Compliances</a>
               </li>
-              <div class="dropdown show">
+              <div class="dropdown show" style="margin-right: 20px;">
                 <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false" style="color: rgba(0,0,0,.5)">
                   Tools
@@ -91,8 +98,10 @@
                   <a class="dropdown-item" href="#">Trademark</a>
                   <a class="dropdown-item" href="#">GST</a>
                   <a class="dropdown-item" href="#">Start up India</a>
-                  <a class="dropdown-item" href="#">MSME/Udyog Aadhar</a>
-                </div>
+                  <a class="dropdown-item" href="#">MSME/Udyog Aadhar</a></div>
+
+                <div class="desktop__hide nav-item">
+                  <a href="#" class="nav-link">Blog</a></div>
               </div>
             </ul>
           </div>
@@ -101,27 +110,114 @@
     </div>
   </nav>
 
+  <div style="margin-top:20px" class="d-flex row">
+    <div class="container">
+      <div class="row">
+        <div style="margin-top:50px" class="hero__text col-md-6">
+          <h4 class="title color__dark">Learn with Starter's CFO</h4><br>
+          <p class="font color__dark">Free snippets of critical information <br>to help you run your business smarter.
+          </p>
+          <button style="border:1px solid #E02E2F;color:#E02E2F" type="submit"
+            class="btn__secondary font__15 btn btn-light">
+            <i style="font-size:28px;color:red"" class=" fa">&#xf16a;</i>
+            Play on Youtube</button>
+        </div>
+
+        <div style="margin-top:25px" class="col-md-6">
+          <div class="plyr__video-wrapper plyr__video-embed" style="margin-top:5%;">
+            <iframe id="youtube-1111" frameborder="0" allowfullscreen="1"
+              title="Player for In a Heartbeat - Animated Short Film" width="520" height="300"
+              src="https://www.youtube.com/embed/2REkk9SCRn0?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fwww.starterscfo.com%2Flearn&amp;noCookie=false&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.starterscfo.com&amp;widgetid=1"></iframe>
+          </div>
+          <div class="row" style="font-size:14px;">
+            <div class="col">
+              <p class="color__dark mb-0 mt-1"><b style="font-weight:600">In a Heartbeat - Animated Short
+                  Film</b>
+              </p>
+              <p class="color__category"><span>#InaHeartbeat</span><span class="ml-2">#Animation</span></p>
+              <p class="color__grey">India focussed on trade, terror & black money at the G20 summit.
+                New Delhi also raised key issues like 5G & Iran crisis with Trump.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div style="margin-top:20px" class="col-md-6">
+              <div class="plyr__video-wrapper plyr__video-embed" style="margin-top:5%;">
+                <iframe id="youtube-2222" frameborder="0" allowfullscreen="1"
+                  title="Player for In a Heartbeat - Animated Short Film" width="520" height="300"
+                  src="https://www.youtube.com/embed/kJQP7kiw5Fk?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fwww.starterscfo.com%2Flearn&amp;noCookie=false&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.starterscfo.com&amp;widgetid=2"></iframe>
+              </div>
+
+              <div class="row" style="font-size:12px;">
+                <div class="col">
+                  <h6 class="color__dark mt-2 mb-0"><b style="font-weight:600">Gravitas: G20 Summit: Takeaways for
+                      India</b>
+                  </h6>
+                  <p class="color__category"><span>#LuisFonsi</span><span class="ml-2">#Despacito</span><span
+                      class="ml-2">#Imposible</span></p>
+                  <p class="color__grey mt-2">India focussed on trade, terror & black money at the G20 <br>summit.
+                    New Delhi also raised key issues like 5G & Iran crisis<br> with Trump.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:15px;" class="col-md-6">
+              <div class="plyr__video-wrapper plyr__video-embed" style="margin-top:5%;">
+                <iframe id="youtube-3333" frameborder="0" allowfullscreen="1"
+                  title="Player for In a Heartbeat - Animated Short Film" width="520" height="300"
+                  src="https://www.youtube.com/embed/RgKAFK5djSk?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fwww.starterscfo.com%2Flearn&amp;noCookie=false&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.starterscfo.com&amp;widgetid=3"></iframe>
+              </div>
+
+              <div class="row" style="font-size:12px;">
+                <div class="col">
+                  <h6 class="color__dark mt-4 mb-0"><b style="font-weight:600">Gravitas: G20 Summit: Takeaways for
+                      India</b>
+                  </h6>
+                  <p class="color__category"><span>#SeeYouAgain</span></p>
+                  <p class="color__grey mt-2">India focussed on trade, terror & black money at the G20 <br>summit.
+                    New Delhi also raised key issues like 5G & Iran crisis<br> with Trump.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:15px;" class="col-md-6">
+              <div class="plyr__video-wrapper plyr__video-embed" style="margin-top:5%;">
+                <iframe id="youtube-4444" frameborder="0" allowfullscreen="1"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  title="Player for Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona (Español)" width="640"
+                  height="360"
+                  src="https://www.youtube.com/embed/NUsoVlDFqZg?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fwww.starterscfo.com%2Flearn&amp;noCookie=false&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.starterscfo.com&amp;widgetid=4"></iframe>
+              </div>
+
+              <div class="row" style="font-size:12px;">
+                <div class="col">
+                  <h6 class="color__dark mt-4 mb-0"><b style="font-weight:600">Gravitas: G20 Summit: Takeaways for
+                      India</b>
+                  </h6>
+                  <p class="color__category"><span>#LetMeBeYourLover</span><span
+                      class="ml-2">#EnriqueIglesias</span><span class="ml-2">#BailandoEspañol</span></p>
+                  <p class="color__grey mt-2">India focussed on trade, terror & black money at the G20 <br>summit.
+                    New Delhi also raised key issues like 5G & Iran crisis<br> with Trump.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   <div class="container">
     <div class="row">
-      <div style="margin-top:50px" class="hero__text col-md-6">
-        <h4 class="title color__dark">Learn with Starter's CFO</h4><br>
-        <p class="font color__dark">Free snippets of critical information <br>to help you run your business smarter.</p>
-        <button style="border:1px solid #E02E2F;color:#E02E2F" type="submit"
-          class="btn__secondary large on_white font__15 btn btn-light">
-          <i style="font-size:28px;color:red"" class=" fa">&#xf16a;</i>
-          Play on Youtube</button>
+      <div class="col">
+        <hr>
       </div>
-
-      <div class="plyr__video-wrapper plyr__video-embed" style="margin-top:5%;">
-        <iframe id="youtube-6848" frameborder="0" allowfullscreen="1"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          title="Player for In a Heartbeat - Animated Short Film" width="520" height="300"
-          src="https://www.youtube.com/embed/2REkk9SCRn0?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fwww.starterscfo.com%2Flearn&amp;noCookie=false&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.starterscfo.com&amp;widgetid=1"></iframe>
-      </div>
-
-      <script src="js/jquery-3.3.1.slim.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
