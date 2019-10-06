@@ -3,9 +3,13 @@
     padding:0px;
     
 }
+* {
+    font-family: 'Open Sans', sans-serif;
+}
 .nav__light {
     background-color: #f4f8fb;
-    height: 60px;
+    height:60px;
+    width:100%;
 
 }
 .nav-item a {
@@ -101,17 +105,126 @@ a {
     height: 150px;
 }
 #youtube-9999{
-    width:220px;
-    height:130px;
+    width:200px;
+    height:110px;
 }
 #youtube-7725{
-    width:220px;
-    height:130px;
+    width:200px;
+    height:110px;
 }
 #youtube-1001{
     width:220px;
     height:130px;
 }
+#youtube-9751{
+    width:200px;
+    height:110px;
+}
+#youtube-5674{
+    width:200px;
+    height:110px; 
+}
+#youtube-5603{
+    width:190px;
+    height:110px;
+}
+#youtube-8330{
+    width:190px;
+    height:110px;
+}
+#youtube-8165{
+    width:190px;
+    height:110px;
+}
+#youtube-2477{
+    width:190px;
+    height:110px;
+}
+#youtube-7000{
+    width:190px;
+    height:110px;
+}
+#youtube-7935{
+    width:190px;
+    height:110px;
+}
+#youtube-7606{
+    width:190px;
+    height:110px;
+}
+#youtube-7606{
+    width:190px;
+    height:110px;
+}
+#youtube-8671{
+    width:190px;
+    height:110px;
+}
+#youtube-9183{
+    width:190px;
+    height:110px;
+}
+#youtube-4383{
+    width:190px;
+    height:110px;
+}
+#youtube-9345{
+    width:190px;
+    height:110px;
+}
+#youtube-4969{
+    width:190px;
+    height:110px; 
+}
+#youtube-8622{
+    width:190px;
+    height:110px;
+}
+#youtube-7675{
+    width:190px;
+    height:110px; 
+}
+#youtube-3068{
+    width:190px;
+    height:110px;  
+}
+#youtube-311{
+    width:190px;
+    height:110px; 
+}
+.footer__logo{
+    height: 50px;
+    margin-left: 20px; 
+}
+.background-color__dark {
+    background-color: #2d3e50!important;
+}
+.color__white {
+    color: white!important;
+}
+h6 {
+    font-size: 1rem;
+}
+.color__grey_on_dark {
+    color: #cbd6e2!important;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.font__12 {
+    font-size: 12px;
+    margin: 0;
+}
+.footer__logo {
+    height: 50px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 @media (max-width: 700px) { 
 span{
     display:none;
@@ -123,7 +236,7 @@ span{
 @media (max-width: 780px){
 #youtube-1111{
     width:400px;
-    padding-left:2px;
+    padding-left:10px;
     padding-right: 10px;
     height: 200px;
 }
