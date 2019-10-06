@@ -73,19 +73,44 @@ a {
 }
 
 #youtube-2222{
-    width:375px;
+    width:350px;
     height:200px;
 }
 #youtube-3333{
-    width:375px;
+    width:350px;
     height:200px;
 }
 #youtube-4444{
-    width: 375px;
+    width: 350px;
     height: 200px;
 }
-.hr{
-    color: #2d3e50;
+#youtube-5555{
+    width:260px;
+    height: 150px;
+}
+#youtube-6666{
+    width:260px;
+    height: 150px;
+}
+#youtube-7777{
+    width:260px;
+    height: 150px;
+}
+#youtube-8888{
+    width:260px;
+    height: 150px;
+}
+#youtube-9999{
+    width:220px;
+    height:130px;
+}
+#youtube-7725{
+    width:220px;
+    height:130px;
+}
+#youtube-1001{
+    width:220px;
+    height:130px;
 }
 @media (max-width: 700px) { 
 span{
